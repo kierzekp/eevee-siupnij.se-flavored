@@ -3,7 +3,8 @@
 {% block content %}
     <article itemscope itemtype="http://schema.org/BlogPosting">
         {% include 'partials/structured_data.html' %}
-        {% include 'partials/share.html' %}
+        <!-- {% include 'partials/share.html' %} -->
+        <div class="eevee-page-spacer" role="presentation"></div>
         <div class="eevee-article">
             <div class="eevee-meta mdl-color-text--grey-500">
                 <time datetime="{{ article.date.isoformat() }}"

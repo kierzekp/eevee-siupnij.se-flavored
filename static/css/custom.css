@@ -1,1 +1,110 @@
 /* Custom CSS goes here. */
+.article-content {
+  color: whitesmoke;
+  margin-bottom: 15px;
+}
+
+.summary-content {
+  color: whitesmoke;
+}
+
+.article-title {
+  font-family: 'VT323', monospace;
+}
+
+.eevee-ribbon {
+  background-image: url('../images/10042.png');
+  background-repeat: repeat;
+}
+
+.eevee-header, .eevee-layout {
+  background-color: rgb(30, 34, 41) !important;
+}
+
+.eevee-content {
+  background-color: rgb(34, 34, 34) !important;
+}
+
+.eevee-logo h2 {
+  font-family: 'VT323', monospace;
+}
+
+.eevee-article h1 {
+  font-family: 'VT323', monospace;
+}
+
+.eevee-page h1 {
+  font-family: 'VT323', monospace;
+}
+
+.eevee-mobile-header, .eevee-nav {
+  background-color: rgb(30, 34, 41) !important;
+}
+
+.eevee-related, table {
+  background-color: rgb(32, 32, 32) !important;
+}
+
+.eevee-ac, tr:hover {
+  background-color: rgb(30, 34, 41) !important;
+}
+
+.eevee-comment {
+  background-color: rgb(28, 28, 28) !important;
+}
+
+.mdl-mega-footer, #view-source {
+  color: rgb(34, 34, 34) !important;
+}
+
+.mdl-layout-title h2 {
+  font-family: 'VT323', monospace;
+  color: whitesmoke;
+}
+
+.mdl-mega-footer--link-list li {
+  color: #e23e75;
+}
+
+.eevee-ac-author__text h2 {
+  color: #e23e75;
+  font-family: 'VT323', monospace;
+}
+
+.eevee-ac-author__text p {
+  color: whitesmoke;
+}
+
+.article-content img {
+  box-shadow: 10px 10px;
+}
+
+.summary-content img {
+  box-shadow: 10px 10px;
+}
+
+.caption {
+  margin-top: 15px;
+  font-size:x-small;
+}
+
+.footnote-reference {
+  vertical-align: super;
+  font-size: x-small;
+}
+
+.eevee-page {
+  color: whitesmoke;
+  margin-bottom: 15px;
+}
+
+.custom-footer-above {
+  position:relative;
+  margin-bottom: -375px;
+  top: -375px;
+  margin-left: 77%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
