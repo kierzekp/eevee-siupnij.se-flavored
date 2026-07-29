@@ -18,7 +18,9 @@
                 </a>
             </h2>
             <section itemprop="articleBody" class="summary-content">
-                {{ article.summary }}
+                {{ article.summary }} <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+                   title="Permalink to '{{ article.title|striptags }}'"
+                   itemprop="url">Czytaj dalej...</a>
             </section>
             {% if not loop.last %}
                 <div class="eevee-divider mdl-color--accent" role="presentation">
